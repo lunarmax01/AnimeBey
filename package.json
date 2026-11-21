@@ -1,0 +1,1 @@
+{"name":"bey-anime","version":"1.0.0","private":true,"workspaces":["backend","frontend"],"scripts":{"dev":"concurrently -k \"npm run dev -w backend\" \"npm run dev -w frontend\"","build":"npm run build -w frontend","start":"npm run start -w backend","test":"node --test backend/tests/*.test.js"},"devDependencies":{"concurrently":"^9.2.1"}}
